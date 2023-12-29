@@ -19,7 +19,10 @@ public class BallonController : MonoBehaviour
         
     }
 
-    
+    private void FixedUpdate()
+    {
+        transform.Translate(0, upSpeed, 0);
+    }
 
-   
+
 }
