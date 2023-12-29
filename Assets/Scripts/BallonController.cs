@@ -26,6 +26,7 @@ public class BallonController : MonoBehaviour
 
     private void OnMouseDown()
     {
+        score++;
         
     }
 
