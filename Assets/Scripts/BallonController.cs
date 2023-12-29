@@ -24,5 +24,10 @@ public class BallonController : MonoBehaviour
         transform.Translate(0, upSpeed, 0);
     }
 
+    private void OnMouseDown()
+    {
+        
+    }
+
 
 }
