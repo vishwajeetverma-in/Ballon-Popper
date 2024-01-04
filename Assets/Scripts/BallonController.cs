@@ -38,7 +38,7 @@ public class BallonController : MonoBehaviour
         score++;
         scoreText.text = score.ToString();  
         audioSource.Play();
-        ResetPosition();
+        ResetPosition(); 
         
     }
 
