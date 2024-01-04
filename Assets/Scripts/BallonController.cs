@@ -28,12 +28,14 @@ public class BallonController : MonoBehaviour
     {
         score++;
         audioSource.Play();
+        ResetPosition();
         
     }
 
     void ResetPosition()
     {
         float randomX = Random.Range(-2.5f, 2.5f);
+        transform.position = new Vector2 (randomX, -5f);
 
 
     }
