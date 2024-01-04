@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class BallonController : MonoBehaviour
 {
@@ -18,6 +19,12 @@ public class BallonController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(transform.position.y > 5f)
+        {
+            //SceneManager.LoadScene("Level1");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+
+        }
         
     }
 
