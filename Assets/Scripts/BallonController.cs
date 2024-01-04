@@ -33,6 +33,8 @@ public class BallonController : MonoBehaviour
 
     void ResetPosition()
     {
+        float randomX = Random.Range(-2.5f, 2.5f);
+
 
     }
 
