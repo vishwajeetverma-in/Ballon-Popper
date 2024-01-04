@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class BallonController : MonoBehaviour
 {
     public float upSpeed;
     int score = 0;
     AudioSource audioSource;
+    public TextMeshProUGUI scoreText;
     private void Awake()
     {
         audioSource = GetComponent<AudioSource>();
@@ -27,6 +29,7 @@ public class BallonController : MonoBehaviour
     private void OnMouseDown()
     {
         score++;
+        scoreText.text = score.ToString();  
         audioSource.Play();
         ResetPosition();
         
