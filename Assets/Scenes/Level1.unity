@@ -608,6 +608,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   upSpeed: 0.05
+  scoreText: {fileID: 39837180}
 --- !u!1 &1703486709
 GameObject:
   m_ObjectHideFlags: 0
