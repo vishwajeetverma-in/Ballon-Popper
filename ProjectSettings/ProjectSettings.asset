@@ -158,6 +158,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
+    Android: com.saffron.ballon_Popper
     Standalone: com.DefaultCompany.2DProject
   buildNumber:
     Standalone: 0
